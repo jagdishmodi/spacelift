@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_instance" "example" {
   ami           = "ami-07860a2d7eb515d9a" # Amazon Linux 2 AMI (update as needed)
-  instance_type = "t2.medium"
+  instance_type = "t2.large"
 
   tags = {
     Name = "Terraform-EC2"
